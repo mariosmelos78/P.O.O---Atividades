@@ -1,0 +1,16 @@
+# Atividade Aula 01
+
+## 🛠️ Detalhes das Questões Desenvolvidas
+
+### 📦 Questão 1: Estoque de Produtos (`estoque.py`)
+Um pequeno sistema de gerenciamento de estoque para uma loja utilizando um dicionário (Chave: nome do produto / Valor: quantidade).
+- Permite adicionar, remover, atualizar quantidades e listar o estoque atual.
+- Conta com proteção para entradas inválidas (ex: digitação de textos em campos numéricos ou quantidades negativas).
+- Evita sobrescrever itens já existentes e valida campos vazios.
+
+### 🎓 Questão 2: Cadastro de Alunos e Notas (`alunos.py`)
+Um sistema de gerenciamento escolar que associa o nome de um aluno a uma lista contendo 4 notas de avaliações.
+- Permite cadastrar novos alunos, atualizar o conjunto de notas, remover registros do cadastro.
+- Exibe o relatório de alunos com suas respectivas notas e gera a listagem de médias calculadas e formatadas com duas casas decimais.
+- Realiza validações para garantir que as notas fiquem rigidamente no intervalo entre `0.0` e `10.0`.
+
